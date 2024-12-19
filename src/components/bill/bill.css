@@ -1,0 +1,161 @@
+#billContainer {
+    background: linear-gradient(to bottom, #d0d0dc, hsl(0, 0%, 100%));
+    margin-top: 5px;
+    height: 545px;
+    border-radius: 10px;
+    
+  }
+
+ 
+#colam{
+    margin-right: 1px;
+}
+#inputBarcode{
+  background-color: #eaeaea;
+  
+}
+
+#timeDatecard{
+  height: 70px;
+  background: linear-gradient(to bottom, #221364, hsl(231, 67%, 30%));
+  color: white;
+  border-radius: 5px;
+}
+
+#cashRetailCard{
+  height: 40px;
+  background: linear-gradient(to bottom, #221364, hsl(231, 67%, 30%));
+  color: white;
+  border-radius: 5px;
+}
+
+#paymentCard{
+  background: linear-gradient(to bottom, #e5dc2f, hsl(57, 93%, 74%));
+  height: 400px;
+  
+}
+
+#paymentType{
+  font-size: 10px;
+}
+#totalCard{
+  background: linear-gradient(to bottom, #221364, hsl(231, 67%, 30%));
+  color: white;
+  border-radius: 5px;
+}
+
+#billTable{
+        font-size: smaller;
+}
+
+#paymentButton{
+  display: flex;
+  flex-direction:column;
+  margin-bottom: 150px;
+}
+
+#pageColoumn1{
+  background-color: white;
+  border-radius: 10px;
+  
+}
+
+#pageColoumn2{
+  background-color: white;
+  border-radius: 10px;
+  
+  width: 750px;
+}
+
+#casierCard{
+  height: 40px;
+  padding-top: 9px;
+  background-color: #043672;
+  color: #fff;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.deleteButton {
+  width: 40px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  background-color: transparent;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+.deleteButton svg {
+  width: 44%;
+}
+.deleteButton:hover {
+  background-color: rgb(237, 56, 56);
+  overflow: visible;
+}
+.bin path {
+  transition: all 0.2s;
+}
+.deleteButton:hover .bin path {
+  fill: #fff;
+}
+.deleteButton:active {
+  transform: scale(0.98);
+}
+.tooltip {
+  --tooltip-color: rgb(41, 41, 41);
+  position: absolute;
+  top: -40px;
+  background-color: var(--tooltip-color);
+  color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 8px 12px;
+  font-weight: 600;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.105);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.tooltip::before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  content: "";
+  background-color: var(--tooltip-color);
+  bottom: -10%;
+}
+.deleteButton:hover .tooltip {
+  opacity: 1;
+}
+
+
+
+
+

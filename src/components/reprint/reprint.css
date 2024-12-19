@@ -1,0 +1,44 @@
+#mainContainer1 {
+  background: linear-gradient(to bottom, #171768, hsl(244, 64%, 38%));
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+#row1 {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  height: 40px;
+}
+
+#tableContainer {
+  background-color: white;
+  border-radius: 10px;
+  justify-items: center;
+  height: 360px;
+}
+
+#actionButton {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.70rem;
+  line-height: 1;
+  border-radius: 0.2rem;
+}
+
+
+#summaryTable{
+   
+    margin: 0 auto;
+    font-size: small;
+    border-collapse: collapse;
+}
+#userImage{
+  height: 35px;
+  padding: 2px;
+}
+
+#datePicker{
+  border-radius: 5px;
+  text-align: center;
+}
